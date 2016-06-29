@@ -30,6 +30,8 @@ Pruebas de rotaciones de 180 en la pc 1 duraban 10-16 segundos (imagenes grandes
 
 Pruebas de rotaciones de 90 y 270 en la pc 1 podian durar desde 20 segundos hasta casi 1 minuto (dependiendo de la cantidad de bits), mientras que en la pc 2 corrian en 3-4 segundos.
 
+Como maximo tiempo para una accion la pc 1 se podia tomar entre 50 y 1 minuto mientras que la pc 2 entre 3-5 segundos
+
 Es por esto que al correr este programa y mas aun si se prueban imagenes grandes no se preocupe si ve que el programa
 se encuentra "estancado" este todavia esta trabajando y realizando la accion que usted pidio. Esto se reitera en una impresion en el mismo menu del programa.
 
