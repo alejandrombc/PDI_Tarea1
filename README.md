@@ -38,4 +38,4 @@ se encuentra "estancado" este todavia esta trabajando y realizando la accion que
 ## Integrante
 
 **Alejandro Moises Barone Cavalieri**
-**CI 24206267**
+**CI: 24206267**
