@@ -6,7 +6,7 @@
 * Integrante
 
 ## Desarrollo y ejecucion
-La tarea fue desarrollada en el lenguaje interpretado python, especificamente la version 3.5 de este.
+La tarea fue desarrollada en el lenguaje interpretado python, especificamente la version 3.5.1, y solo se probo en esta version.
 
 La misma requiere que se tenga el interprete de python para poder funcionar.
 
