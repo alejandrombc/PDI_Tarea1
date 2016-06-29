@@ -18,7 +18,8 @@ Cabe destacar que el programa recibira siempre al principio una imagen llamada "
 Como dice el enunciado de la tarea el unico formato soportado es el ".bmp" permitiendo solamente imagenes de 1, 4, 8 y 24 bits.
 
 ## Pruebas
-El programa fue probado en dos computadoras con las siguientes caracteristicas:
+El programa fue probado en dos computadoras con las siguientes caracteristicas.:
+
 1) Procesador Intel core i5 3210 con 4GB de RAM en Windows 7 de 64bits
 
 2) Procesador Intel core i5 4210 con 8GB de RAM en Windows 10 de 64bits
