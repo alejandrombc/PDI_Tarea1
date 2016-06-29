@@ -1,9 +1,9 @@
 # # # # # # # # # # # # # # # #	#
-#     	  Tarea 1 - PDI 	    #
+#         Tarea 1 - PDI         #
 #  Alejandro Barone - 24206267  #
 #                               #
-# 								#
-# 		Imports y from's		# 
+#                               #
+#        Imports y from'        # 
 # # # # # # # # # # # # # # # # # 
 import math
 
