@@ -35,6 +35,8 @@ Como maximo tiempo para una accion la pc 1 se podia tomar entre 50 y 1 minuto mi
 Es por esto que al correr este programa y mas aun si se prueban imagenes grandes no se preocupe si ve que el programa
 se encuentra "estancado" este todavia esta trabajando y realizando la accion que usted pidio. Esto se reitera en una impresion en el mismo menu del programa.
 
+Las imagenes que se probaron fueron las suministradas por el profesor Esmitt en la pagina de la materia, ademas de estas, se probaron varias creadas con el programa "Paint" guardandolas en los formatos soportados por el programa.
+
 ## Integrante
 
 **Alejandro Moises Barone Cavalieri**
