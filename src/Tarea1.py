@@ -45,19 +45,19 @@ def guardar_imagen(intento):
 	print ("Si ves que se traba el programa no se preocupe, este esta trabajando!")
 
 	#Llamadas a funciones pertinentes
-	if entrada == '1':
+	if entrada == '1' or entrada == 1 :
 		negativo(data)
-	elif entrada == '3' or entrada == '5':
+	elif entrada == '3' or entrada == '5' or entrada == 3 or entrada == 5:
 		invertir90(data,alto,ancho)
-	elif entrada == '4':
+	elif entrada == '4' or entrada == 4:
 		invertir180(data,alto,ancho)
-	elif entrada == '2' or entrada == '6':
+	elif entrada == '2' or entrada == '6' or entrada == 2 or entrada == 6:
 		invertir270(data,alto,ancho)
-	elif entrada == '7':
+	elif entrada == '7' or entrada == 7:
 		espejo_vertical(data,alto,ancho)
-	elif entrada == '8':
+	elif entrada == '8' or entrada == 8:
 		espejo_horizontal(data,alto,ancho)
-	elif entrada == '9':
+	elif entrada == '9' or entrada == 9:
 		print("Hasta luego")
 	else:
 		print("Entrada invalida")
