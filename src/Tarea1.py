@@ -931,7 +931,6 @@ def espejo_vertical (data,alto,ancho):
 		#Saco el limite 
 		pos = 1078 #Posicion inicial 
 		aux_arriba = len(data)-padding-ancho #Posicion inicial de la ultima fila
-		print(len(data))
 		while (pos<aux_arriba):
 			swap = data[pos:pos+(ancho)]
 			data[pos:pos+(ancho)] = data[aux_arriba:aux_arriba+(ancho)]
