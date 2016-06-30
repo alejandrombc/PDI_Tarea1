@@ -28,12 +28,14 @@ def guardar_imagen(intento):
 	print ("Imagen de %s bit(s)"%data[28])
 	print ("Escoja una opcion:")
 	print ("1: Negativo")
-	print ("2: Invertir 270 grados")
-	print ("3: Invertir 180 grados")
-	print ("4: Invertir 90 grados")
-	print ("5: Espejo vertical")
-	print ("6: Espejo horizontal")
-	print ("7: Salir")
+	print ("2: Invertir 270 grados derecha")
+	print ("3: Invertir 270 grados izquierda")
+	print ("4: Invertir 180 grados")
+	print ("5: Invertir 90 grados izquierda")
+	print ("6: Invertir 90 grados derecha")
+	print ("7: Espejo vertical")
+	print ("8: Espejo horizontal")
+	print ("9: Salir")
 
 	entrada = input()
 
@@ -45,17 +47,17 @@ def guardar_imagen(intento):
 	#Llamadas a funciones pertinentes
 	if entrada == '1':
 		negativo(data)
-	elif entrada == '2':
+	elif entrada == '3' or entrada == '5':
 		invertir90(data,alto,ancho)
-	elif entrada == '3':
-		invertir180(data,alto,ancho)
 	elif entrada == '4':
+		invertir180(data,alto,ancho)
+	elif entrada == '2' or entrada == '6':
 		invertir270(data,alto,ancho)
-	elif entrada == '5':
-		espejo_vertical(data,alto,ancho)
-	elif entrada == '6':
-		espejo_horizontal(data,alto,ancho)
 	elif entrada == '7':
+		espejo_vertical(data,alto,ancho)
+	elif entrada == '8':
+		espejo_horizontal(data,alto,ancho)
+	elif entrada == '9':
 		print("Hasta luego")
 	else:
 		print("Entrada invalida")
@@ -929,7 +931,7 @@ def espejo_vertical (data,alto,ancho):
 		#Saco el limite 
 		pos = 1078 #Posicion inicial 
 		aux_arriba = len(data)-padding-ancho #Posicion inicial de la ultima fila
-		# data[1146] = 128
+		print(len(data))
 		while (pos<aux_arriba):
 			swap = data[pos:pos+(ancho)]
 			data[pos:pos+(ancho)] = data[aux_arriba:aux_arriba+(ancho)]
