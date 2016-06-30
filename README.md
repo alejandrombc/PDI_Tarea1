@@ -11,9 +11,9 @@ La tarea fue desarrollada en el lenguaje interpretado python, especificamente la
 La misma requiere que se tenga el interprete de python para poder funcionar.
 
 Para ejecutarla ejecute el comando "python Tarea1.py", al ejecutarla se le presentara un menu de consola con el que podra
-interactuar, coloque la opcion que desee para que es ejecute dicha accion.
+interactuar, coloque la opcion que desee para que se ejecute dicha accion.
 
-Cabe destacar que el programa recibira siempre al principio una imagen llamada "entrada.bmp" y devolvera una imagen llamada "salida.bmp", este mismo no dejara de funcionar luego de la primera ejecucion, sino que, se le volvera a abrir el menu pero esta vez la accion se le aplicara a la imagen "salida.bmp", esto a fin de conservar la imagen original intacta.
+Cabe destacar que el programa recibira siempre al principio una imagen llamada "entrada.bmp" (la cual debe estar en la misma carpeta que el archivo ".py") y devolvera una imagen llamada "salida.bmp", este mismo no dejara de funcionar luego de la primera ejecucion, sino que, se le volvera a abrir el menu pero esta vez la accion se le aplicara a la imagen "salida.bmp", esto a fin de conservar la imagen original intacta.
 
 Como dice el enunciado de la tarea el unico formato soportado es el ".bmp" permitiendo solamente imagenes de 1, 4, 8 y 24 bits.
 
